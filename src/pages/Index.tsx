@@ -108,7 +108,7 @@ const projects = [
       undefined,
       undefined,
       'object-cover object-center scale-110',
-      'object-cover object-center scale-110',
+      'object-cover object-[center_60%] scale-110',
     ] as (string | undefined)[],
   },
   {
