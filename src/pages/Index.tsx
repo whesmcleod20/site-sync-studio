@@ -262,6 +262,11 @@ const Index = () => {
     } else {
       setSubmitStatus('success');
       (e.target as HTMLFormElement).reset();
+
+      // Send email notification (fire and forget)
+      supabase.functions.invoke('send-quote-email', {
+        body: { name, email, details },
+      }).catch((err) => console.error('Email notification error:', err));
     }
     setIsSubmitting(false);
   };
