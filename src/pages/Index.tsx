@@ -38,6 +38,9 @@ import exteriorOverhaul3 from '@/assets/exterior-overhaul-3.jpeg';
 import exteriorOverhaul4 from '@/assets/exterior-overhaul-4.png';
 import exteriorOverhaul5 from '@/assets/exterior-overhaul-5.jpeg';
 import exteriorOverhaul6 from '@/assets/exterior-overhaul-6.jpeg';
+import curbAppeal1 from '@/assets/curb-appeal-1.jpg';
+import curbAppeal2 from '@/assets/curb-appeal-2.jpg';
+import curbAppeal3 from '@/assets/curb-appeal-3.jpg';
 
 const services = [
   {
@@ -126,9 +129,9 @@ const projects = [
     category: "Exterior Refresh",
     description: "New concrete walkway, fresh exterior paint on trim and fascia, and overall curb appeal refresh on a classic brick residential home.",
     images: [
-      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1590066305974-2694b3ef4c2b?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&q=80&w=1200"
+      curbAppeal1,
+      curbAppeal2,
+      curbAppeal3,
     ],
   },
   {
