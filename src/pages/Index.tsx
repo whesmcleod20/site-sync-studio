@@ -122,7 +122,7 @@ const projects = [
     ],
   },
   {
-    title: "Brick Home — Curb Appeal & Concrete",
+    title: "Brick Home — Curb Appeal & Roofing",
     category: "Exterior Refresh",
     description: "New concrete walkway, fresh exterior paint on trim and fascia, and overall curb appeal refresh on a classic brick residential home.",
     images: [
