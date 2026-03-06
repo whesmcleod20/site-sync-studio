@@ -25,6 +25,10 @@ import { motion, AnimatePresence } from 'motion/react';
 import deckPorch1 from '@/assets/deck-porch-1.jpeg';
 import deckPorch2 from '@/assets/deck-porch-2.jfif';
 import deckPorch3 from '@/assets/deck-porch-3.png';
+import garageShed1 from '@/assets/garage-shed-1.png';
+import garageShed2 from '@/assets/garage-shed-2.png';
+import garageShed3 from '@/assets/garage-shed-3.png';
+import garageShed4 from '@/assets/garage-shed-4.png';
 
 const services = [
   {
