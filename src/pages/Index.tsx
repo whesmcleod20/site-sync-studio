@@ -267,9 +267,6 @@ const Index = () => {
       }`}>
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-              <Hammer className="text-[#0A192F] w-5 h-5" />
-            </div>
             <span className={`text-lg font-bold tracking-tight ${scrolled || isMenuOpen ? 'text-white' : 'text-white md:text-[#0A192F]'}`}>
               McLeod's <span className="opacity-60 font-medium">HSS</span>
             </span>
