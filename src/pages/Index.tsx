@@ -361,7 +361,7 @@ const Index = () => {
             {[
               { label: "Projects", value: "350+" },
               { label: "Satisfaction", value: "98%" },
-              { label: "Experience", value: "15Y" },
+              { label: "Experience", value: "17Y" },
               { label: "Status", value: "Active" }
             ].map((stat, i) => (
               <div key={i} className="flex flex-col items-center md:items-start border-l border-zinc-800 pl-6">
