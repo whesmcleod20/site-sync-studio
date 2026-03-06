@@ -38,6 +38,9 @@ import exteriorOverhaul3 from '@/assets/exterior-overhaul-3.jpeg';
 import exteriorOverhaul4 from '@/assets/exterior-overhaul-4.png';
 import exteriorOverhaul5 from '@/assets/exterior-overhaul-5.jpeg';
 import exteriorOverhaul6 from '@/assets/exterior-overhaul-6.jpeg';
+import curbAppeal1 from '@/assets/curb-appeal-1.jpg';
+import curbAppeal2 from '@/assets/curb-appeal-2.jpg';
+import curbAppeal3 from '@/assets/curb-appeal-3.jpg';
 
 const services = [
   {
