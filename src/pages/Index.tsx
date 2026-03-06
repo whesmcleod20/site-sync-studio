@@ -102,6 +102,14 @@ const projects = [
       exteriorOverhaul5,
       exteriorOverhaul6,
     ],
+    imageFits: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      'object-cover object-center scale-110',
+      'object-cover object-center scale-110',
+    ] as (string | undefined)[],
   },
   {
     title: "Deck & Covered Porch Addition",
@@ -168,7 +176,7 @@ const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className={`w-full h-full ${project.imageFit || 'object-cover'}`}
+            className={`w-full h-full ${(project as any).imageFits?.[currentImageIndex] || project.imageFit || 'object-cover'}`}
             referrerPolicy="no-referrer"
           />
         </AnimatePresence>
