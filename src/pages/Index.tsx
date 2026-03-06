@@ -95,9 +95,12 @@ const projects = [
     category: "Full Renovation",
     description: "Full renovation including new siding, screened porch addition, kitchen remodel with island range, and open-plan living areas with refinished hardwood floors.",
     images: [
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&q=80&w=1200"
+      exteriorOverhaul1,
+      exteriorOverhaul2,
+      exteriorOverhaul3,
+      exteriorOverhaul4,
+      exteriorOverhaul5,
+      exteriorOverhaul6,
     ],
   },
   {
