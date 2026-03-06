@@ -78,9 +78,9 @@ const projects = [
     category: "Full Interior",
     description: "Complete interior transformation including luxury master bath with soaking tub, walk-in closet, kitchen remodel, and refinished hardwood floors throughout.",
     images: [
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80&w=1200"
+      interior1,
+      interior2,
+      interior3,
     ],
   },
   {
