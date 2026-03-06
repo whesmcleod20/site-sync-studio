@@ -132,7 +132,7 @@ const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
     if (isHovered && project.images.length > 1) {
       interval = setInterval(() => {
         setCurrentImageIndex((prev) => (prev + 1) % project.images.length);
-      }, 1500);
+      }, 3000);
     } else {
       setCurrentImageIndex(0);
     }
