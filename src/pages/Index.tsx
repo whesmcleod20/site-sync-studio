@@ -32,6 +32,12 @@ import garageShed4 from '@/assets/garage-shed-4.png';
 import interior1 from '@/assets/interior-1.png';
 import interior2 from '@/assets/interior-2.jpeg';
 import interior3 from '@/assets/interior-3.jpeg';
+import exteriorOverhaul1 from '@/assets/exterior-overhaul-1.jpeg';
+import exteriorOverhaul2 from '@/assets/exterior-overhaul-2.jpeg';
+import exteriorOverhaul3 from '@/assets/exterior-overhaul-3.jpeg';
+import exteriorOverhaul4 from '@/assets/exterior-overhaul-4.png';
+import exteriorOverhaul5 from '@/assets/exterior-overhaul-5.jpeg';
+import exteriorOverhaul6 from '@/assets/exterior-overhaul-6.jpeg';
 
 const services = [
   {
