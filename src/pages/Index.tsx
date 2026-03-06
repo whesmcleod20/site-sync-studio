@@ -215,7 +215,7 @@ const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
 const processSteps = [
   {
     title: "Request a Quote",
-    description: "Fill out our quick form or give us a call. We'll gather the details needed to prepare an accurate estimate.",
+    description: "Fill out our quick form or give us a call. We'll gather the details needed to prepare an accurate estimate. Please include the best phone number to reach you in your project details.",
     icon: Mail
   },
   {
