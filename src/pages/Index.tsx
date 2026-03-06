@@ -102,6 +102,14 @@ const projects = [
       exteriorOverhaul5,
       exteriorOverhaul6,
     ],
+    imageFits: [
+      undefined,
+      undefined,
+      undefined,
+      undefined,
+      'object-cover object-center scale-110',
+      'object-cover object-center scale-110',
+    ] as (string | undefined)[],
   },
   {
     title: "Deck & Covered Porch Addition",
