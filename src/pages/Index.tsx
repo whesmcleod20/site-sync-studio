@@ -77,6 +77,7 @@ const projects = [
     title: "Residential Interior Renovation",
     category: "Full Interior",
     description: "Complete interior transformation including luxury master bath with soaking tub, walk-in closet, kitchen remodel, and refinished hardwood floors throughout.",
+    imageFit: "object-contain bg-zinc-800" as string | undefined,
     images: [
       interior1,
       interior2,
