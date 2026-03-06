@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { supabase } from '@/integrations/supabase/client';
 import {
   Hammer,
   Home,
@@ -246,10 +247,22 @@ const Index = () => {
     setIsSubmitting(true);
     setSubmitStatus('idle');
 
-    // Stubbed — no Firebase
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    setSubmitStatus('success');
-    (e.target as HTMLFormElement).reset();
+    const formData = new FormData(e.currentTarget);
+    const name = (formData.get('name') as string).trim();
+    const email = (formData.get('email') as string).trim();
+    const details = (formData.get('details') as string).trim();
+
+    const { error } = await supabase
+      .from('quote_requests')
+      .insert({ name, email, details });
+
+    if (error) {
+      console.error('Quote submission error:', error);
+      setSubmitStatus('error');
+    } else {
+      setSubmitStatus('success');
+      (e.target as HTMLFormElement).reset();
+    }
     setIsSubmitting(false);
   };
 
