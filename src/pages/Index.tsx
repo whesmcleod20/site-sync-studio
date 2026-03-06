@@ -419,8 +419,8 @@ const Index = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20">
             <div>
               <h2 className="text-4xl md:text-6xl font-black text-black leading-none mb-8">OUR <br /> PROCESS.</h2>
-              <p className="text-sm text-black/60 font-medium max-w-sm mb-12">We've streamlined our workflow to ensure transparency and quality at every stage of the project.</p>
-              <div className="aspect-square bg-[#0A192F] rounded-[3rem] p-12 flex flex-col justify-end">
+              <p className="text-sm text-black/60 font-medium max-w-sm mb-8">We've streamlined our workflow to ensure transparency and quality at every stage of the project.</p>
+              <div className="aspect-[2/1] bg-[#0A192F] rounded-[2rem] p-10 flex flex-col justify-end">
                 <div className="text-white">
                   <div className="text-6xl font-black mb-4">04</div>
                   <div className="text-xs font-bold uppercase tracking-widest opacity-50">Proven Steps to Success</div>
