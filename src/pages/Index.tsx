@@ -29,6 +29,9 @@ import garageShed1 from '@/assets/garage-shed-1.png';
 import garageShed2 from '@/assets/garage-shed-2.png';
 import garageShed3 from '@/assets/garage-shed-3.png';
 import garageShed4 from '@/assets/garage-shed-4.png';
+import interior1 from '@/assets/interior-1.png';
+import interior2 from '@/assets/interior-2.jpeg';
+import interior3 from '@/assets/interior-3.jpeg';
 
 const services = [
   {
