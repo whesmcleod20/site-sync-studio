@@ -159,7 +159,7 @@ const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="w-full h-full object-cover"
+            className={`w-full h-full ${project.imageFit || 'object-cover'}`}
             referrerPolicy="no-referrer"
           />
         </AnimatePresence>
