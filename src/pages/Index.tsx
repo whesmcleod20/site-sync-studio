@@ -115,9 +115,10 @@ const projects = [
     category: "New Construction",
     description: "Ground-up construction of a custom detached garage from foundation to finished structure, including framing, sheathing, siding, and roofing.",
     images: [
-      "https://images.unsplash.com/photo-1590066305974-2694b3ef4c2b?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1503387762-592dee58c460?auto=format&fit=crop&q=80&w=1200"
+      garageShed1,
+      garageShed2,
+      garageShed3,
+      garageShed4,
     ],
   }
 ];
