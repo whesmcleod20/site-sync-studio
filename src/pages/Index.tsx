@@ -25,6 +25,10 @@ import { motion, AnimatePresence } from 'motion/react';
 import deckPorch1 from '@/assets/deck-porch-1.jpeg';
 import deckPorch2 from '@/assets/deck-porch-2.jfif';
 import deckPorch3 from '@/assets/deck-porch-3.png';
+import garageShed1 from '@/assets/garage-shed-1.png';
+import garageShed2 from '@/assets/garage-shed-2.png';
+import garageShed3 from '@/assets/garage-shed-3.png';
+import garageShed4 from '@/assets/garage-shed-4.png';
 
 const services = [
   {
@@ -111,9 +115,10 @@ const projects = [
     category: "New Construction",
     description: "Ground-up construction of a custom detached garage from foundation to finished structure, including framing, sheathing, siding, and roofing.",
     images: [
-      "https://images.unsplash.com/photo-1590066305974-2694b3ef4c2b?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&q=80&w=1200",
-      "https://images.unsplash.com/photo-1503387762-592dee58c460?auto=format&fit=crop&q=80&w=1200"
+      garageShed1,
+      garageShed2,
+      garageShed3,
+      garageShed4,
     ],
   }
 ];
