@@ -476,7 +476,7 @@ const Index = () => {
                   </div>
                   <div className="flex items-center gap-4">
                     <MapPin className="w-5 h-5 text-zinc-500" />
-                    <span className="text-sm font-bold">Columbia, SC 29229</span>
+                    <span className="text-sm font-bold">Columbia, SC</span>
                   </div>
                 </div>
               </div>
