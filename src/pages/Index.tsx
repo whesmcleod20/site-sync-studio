@@ -333,7 +333,7 @@ const Index = () => {
             transition={{ duration: 0.8 }}
             className="max-w-2xl"
           >
-            <h1 className="text-6xl md:text-8xl lg:text-9xl font-black text-white leading-[0.9] tracking-tighter mb-8">
+            <h1 className="text-5xl md:text-7xl lg:text-8xl font-black text-white leading-[0.9] tracking-tighter mb-8">
               FAMILY <br />
               VALUES. <br />
               <span className="text-zinc-500">FLAWLESS</span> <br />
@@ -354,7 +354,7 @@ const Index = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <p className="text-sm md:text-base text-black leading-relaxed mb-10 max-w-sm font-medium opacity-80">
-              Serving the Midlands, Upstate, Pee Dee and Lowcountry areas, Serving the Midlands, Upstate, Pee Dee and Lowcountry areas, McLeod Home Service Solutions provides top-tier renovations and dependable repairs for residential and commercial customers. Fully licensed and insured, we're the team that local investors, property managers, and contractors turn to when they need quality work they can actually rely on. top-tier renovations and dependable repairs for residential and commercial customers. Fully licensed and insured, we're the team that local investors, property managers, and contractors turn to when they need quality work they can actually rely on.
+              Serving the Midlands, Upstate, Pee Dee and Lowcountry areas, McLeod Home Service Solutions provides top-tier renovations and dependable repairs for residential and commercial customers. Fully licensed and insured, we're the team that local investors, property managers, and contractors turn to when they need quality work they can actually rely on.
             </p>
             <div className="flex flex-col gap-4">
               <a href="#contact" className="group w-full px-8 py-4 bg-black text-white rounded-full font-bold flex items-center justify-between hover:bg-zinc-800 transition-all">
