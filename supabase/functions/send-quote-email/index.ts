@@ -35,8 +35,8 @@ serve(async (req) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'McLeod HSS Quotes <onboarding@resend.dev>',
-        to: ['whesmcleod20@gmail.com', 'we.mcleod21@gmail.com'],
+        from: 'McLeod HSS Quotes <quotes@mcleodhss.com>',
+        to: ['whesmcleod20@gmail.com', 'we.mcleod21@gmail.com', 'McleodHss@gmail.com'],
         subject: `New Quote Request from ${name}`,
         html: emailHtml,
         reply_to: email,
