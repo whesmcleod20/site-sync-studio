@@ -33,6 +33,11 @@ import garageShed4 from '@/assets/garage-shed-4.png';
 import interior1 from '@/assets/interior-1.png';
 import interior2 from '@/assets/interior-2.jpeg';
 import interior3 from '@/assets/interior-3.jpeg';
+import interior4 from '@/assets/interior-4.jpeg';
+import interior5 from '@/assets/interior-5.jpeg';
+import interior6 from '@/assets/interior-6.jpeg';
+import interior7 from '@/assets/interior-7.jpeg';
+import interior8 from '@/assets/interior-8.jpeg';
 import exteriorOverhaul1 from '@/assets/exterior-overhaul-1.jpeg';
 import exteriorOverhaul2 from '@/assets/exterior-overhaul-2.jpeg';
 import exteriorOverhaul3 from '@/assets/exterior-overhaul-3.jpeg';
@@ -92,6 +97,11 @@ const projects = [
       interior1,
       interior2,
       interior3,
+      interior4,
+      interior5,
+      interior6,
+      interior7,
+      interior8,
     ],
   },
   {
