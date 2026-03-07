@@ -97,6 +97,11 @@ const projects = [
       interior1,
       interior2,
       interior3,
+      interior4,
+      interior5,
+      interior6,
+      interior7,
+      interior8,
     ],
   },
   {
