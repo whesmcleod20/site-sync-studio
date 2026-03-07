@@ -503,7 +503,7 @@ const Index = () => {
       <footer className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
-            <span className="text-sm font-black tracking-tight"><span className="text-sm font-black tracking-tight">McLeod HSS</span>
+            <span className="text-sm font-black tracking-tight">McLeod HSS</span>
           </div>
           <div className="flex gap-8 text-[10px] font-bold text-zinc-400 uppercase tracking-widest">
             <a href="https://www.facebook.com/McLeodhss/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Facebook</a>
