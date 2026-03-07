@@ -25,7 +25,7 @@ serve(async (req) => {
       <p><strong>Project Details:</strong></p>
       <p>${details.replace(/\n/g, '<br>')}</p>
       <hr>
-      <p style="color: #666; font-size: 12px;">Sent from McLeod's HSS website</p>
+      <p style="color: #666; font-size: 12px;"><p style="color: #666; font-size: 12px;">Sent from McLeod HSS website</p></p>
     `;
 
     const res = await fetch('https://api.resend.com/emails', {

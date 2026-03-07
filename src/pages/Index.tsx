@@ -508,7 +508,7 @@ const Index = () => {
           <div className="flex gap-8 text-[10px] font-bold text-zinc-400 uppercase tracking-widest">
             <a href="https://www.facebook.com/McLeodhss/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Facebook</a>
           </div>
-          <p className="text-[10px] font-bold text-zinc-300 uppercase tracking-widest">© 2024 MCLEOD'S HOME SERVICE SOLUTIONS</p>
+          <p className="text-[10px] font-bold text-zinc-300 uppercase tracking-widest"><p className="text-[10px] font-bold text-zinc-300 uppercase tracking-widest">© 2024 MCLEOD HOME SERVICE SOLUTIONS</p></p>
         </div>
       </footer>
     </div>
