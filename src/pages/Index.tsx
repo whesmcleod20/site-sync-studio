@@ -103,6 +103,16 @@ const projects = [
       interior7,
       interior8,
     ],
+    imageFits: [
+      undefined,
+      undefined,
+      undefined,
+      'object-cover scale-[0.93]',
+      undefined,
+      'object-cover scale-[0.93]',
+      'object-cover scale-[0.93]',
+      undefined,
+    ] as (string | undefined)[],
   },
   {
     title: "Exterior & Interior Overhaul",
