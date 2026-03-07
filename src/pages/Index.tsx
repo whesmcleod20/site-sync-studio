@@ -286,7 +286,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <span className={`text-lg font-bold tracking-tight ${scrolled || isMenuOpen ? 'text-white' : 'text-white md:text-[#0A192F]'}`}>
-              McLeod's <span className="opacity-60 font-medium">HSS</span>
+              McLeod <span className="opacity-60 font-medium">HSS</span>
             </span>
           </div>
 
@@ -354,7 +354,7 @@ const Index = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
           >
             <p className="text-sm md:text-base text-black leading-relaxed mb-10 max-w-sm font-medium opacity-80">
-              Serving the Midlands, Upstate, Pee Dee and Lowcountry areas, McLeod's Home Service Solutions provides top-tier renovations and dependable repairs for residential and commercial customers. Fully licensed and insured, we're the team that local investors, property managers, and contractors turn to when they need quality work they can actually rely on.
+              Serving the Midlands, Upstate, Pee Dee and Lowcountry areas, Serving the Midlands, Upstate, Pee Dee and Lowcountry areas, McLeod Home Service Solutions provides top-tier renovations and dependable repairs for residential and commercial customers. Fully licensed and insured, we're the team that local investors, property managers, and contractors turn to when they need quality work they can actually rely on. top-tier renovations and dependable repairs for residential and commercial customers. Fully licensed and insured, we're the team that local investors, property managers, and contractors turn to when they need quality work they can actually rely on.
             </p>
             <div className="flex flex-col gap-4">
               <a href="#contact" className="group w-full px-8 py-4 bg-black text-white rounded-full font-bold flex items-center justify-between hover:bg-zinc-800 transition-all">
@@ -503,12 +503,12 @@ const Index = () => {
       <footer className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="flex items-center gap-2">
-            <span className="text-sm font-black tracking-tight">McLeod's HSS</span>
+            <span className="text-sm font-black tracking-tight">McLeod HSS</span>
           </div>
           <div className="flex gap-8 text-[10px] font-bold text-zinc-400 uppercase tracking-widest">
             <a href="https://www.facebook.com/McLeodhss/" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">Facebook</a>
           </div>
-          <p className="text-[10px] font-bold text-zinc-300 uppercase tracking-widest">© 2024 MCLEOD'S HOME SERVICE SOLUTIONS</p>
+          <p className="text-[10px] font-bold text-zinc-300 uppercase tracking-widest"><p className="text-[10px] font-bold text-zinc-300 uppercase tracking-widest">© 2024 MCLEOD HOME SERVICE SOLUTIONS</p></p>
         </div>
       </footer>
     </div>
